@@ -28,7 +28,9 @@
 
 .post__footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
@@ -45,4 +47,41 @@
 
 .post__avatar{
     padding: 20px;
+}
+
+
+.post__chatStyling{
+    color: rgb(91, 112, 131);
+}
+
+.post__repeatStyling{
+    color: rgb(91, 112, 131);
+}
+
+.post__favoriteStyling{
+    color: rgb(91, 112, 131);
+}
+
+.post__chatFormating{
+    color: #5B7083;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post__repeatFormating{
+    color: #5B7083;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post__favoriteFormating{
+    color: #5B7083;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* look at this please */
+.post__chatSpan:hover{
+    color: rgba(29,161,242,1.00);
+    
 }
